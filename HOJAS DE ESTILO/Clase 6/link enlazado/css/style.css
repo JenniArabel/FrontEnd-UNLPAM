@@ -1,0 +1,31 @@
+/* @import url(styles2.css); */
+*{
+    color:crimson;
+}
+body{
+    background-color: brown; 
+}
+p{
+    color: black;
+} 
+p:hover{
+    color: red;
+}
+p::first-letter{
+    font-weight: 900;
+    color: blue;
+}
+a .mienlace:link{
+    color: azure;
+    text-decoration: none;
+}
+a:visited{
+    color: violet;
+    text-decoration: none;
+}
+a:hover{
+    color: darkcyan;
+}
+a:active{
+    color: crimson;
+}

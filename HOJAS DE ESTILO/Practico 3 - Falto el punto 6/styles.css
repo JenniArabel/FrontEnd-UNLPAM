@@ -1,0 +1,60 @@
+body{
+    background-color: white;
+    border: solid 1px;
+    border-color: black;
+}
+header {
+    background-color: rgb(194, 194, 194);
+    border: solid 1px;
+    border-color: black;
+}
+div{
+    display: inline-block;
+}
+div img{
+    width: 16px;
+    padding-top: 2px;
+}
+header #circulo-rojo{
+    background-color: red;
+    width: 10px;
+    height: 10px;
+    border: solid 1px;
+    border-radius: 50%;
+}
+header #circulo-amarillo{
+    background-color: yellow;
+    width: 10px;
+    height: 10px;
+    border: solid 1px;
+    border-radius: 50%;
+}
+header #circulo-verde{
+    background-color: green;
+    width: 10px;
+    height: 10px;
+    border: solid 1px;
+    border-radius: 50%;
+}
+#Primero{
+    color: blue;
+    font-size: small;
+}
+#Segundo{
+    font-size: medium;
+}
+#Tercero{
+    font-size: large;
+}
+#Cuarto{
+    font-size: x-large;
+}
+#Quinto {
+    color: blue;
+    font-size: xx-large;
+}
+footer{
+    background-color: rgb(194, 194, 194);
+    border: solid 1px;
+    border-color: black;
+}

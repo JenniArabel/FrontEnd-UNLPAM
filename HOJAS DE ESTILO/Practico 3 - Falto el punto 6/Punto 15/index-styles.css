@@ -1,0 +1,43 @@
+#principal{
+    background-color: rgb(127, 249, 255);
+    border-radius: 10px;
+    width: 340px;
+    height: 540px;
+    padding: 20px;
+    margin: 25%;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+}
+#categoria{
+    width: 300px;
+    background-color: rgb(201, 201, 201);
+}
+#sabor{
+    width: 320px;
+}
+#cantidad{
+    width: 320px;
+}
+#complementos{
+    margin-bottom: 0;
+}
+#enviar{
+    background-color: forestgreen;
+    width: 340px;
+    height: 32px;
+    border-radius: 10px;
+    border: 0;
+    margin-top: 8px;
+}
+#borrar{
+    background-color: rgb(255, 0, 195);
+    color: white;
+    width: 340px;
+    height: 32px;
+    border-radius: 10px;
+    border: 0;
+}

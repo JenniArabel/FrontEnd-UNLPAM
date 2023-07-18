@@ -1,0 +1,10 @@
+.porcent{
+    color: rgb(71, 156, 242);
+}
+
+body{
+    background-image: url(img/pexels-miguel-á-padriñán-1591060.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    }

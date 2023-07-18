@@ -1,0 +1,38 @@
+.container{
+    width: 80px;
+    height: 80px;
+    border: solid 1px black;
+    padding: 20px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.75);
+    position: relative;
+}
+.div1{
+    background-color: aquamarine;
+}
+.div2{
+    background-color: blueviolet;
+    position: fixed;
+    top: 50%;
+    left: 200px;
+}
+.div5{
+    background-color: blueviolet;
+    position: fixed;
+    bottom: 10px;
+    right: 5%;
+    width: 30px;
+    height: 30px;
+    border-radius: 50% ;
+}
+/* El div 5 puede servir para el botón que nos lleva al inicio de la pág o para crear un acceso a un chat  */
+.div3{
+    background-color: chartreuse;
+}
+.div4{
+    height: 1000px;
+}

@@ -1,0 +1,43 @@
+<HTML>
+<HEAD> <title>Ejemplo de formulario para comprar por INTERNET</title> </HEAD>
+
+<BODY bgcolor="#DDDD00">
+
+<H2 align="center">COMERCIOS MANOLO</H2><HR>
+<FORM method="post" action="http://www.servcompra.com/cgi-bin/compra.pl"> 
+  <STRONG>ENVIAR LA COMPRA A:</STRONG><BR>
+    Nombre: <INPUT type="text" name="nombre_entrega" size=40 maxlength=30><BR>
+    Dirección: <TEXTAREA name="direccion_entrega" rows="3" cols="33"></TEXTAREA><BR>
+    Ciudad: <INPUT type="text" name="ciudad_entrega" size=15 maxlength=20>
+    Provincia: <INPUT type="text" name="provincia_entrega" size=15 maxlength=20><BR>
+    C.P.: <INPUT type="text" name="CP_entrega" maxlength=5 size=5>
+    Teléfono: <INPUT type="text" name="telefono_entrega" size=17 maxlength=17><BR>
+  <HR>
+
+  <STRONG>PAGO:</STRONG><BR>
+    Forma de pago: <BR>
+    <INPUT type="radio" name="forma_pago" value="efectivo" checked id="efect">
+    <LABEL for="efect">Efectivo</LABEL>
+    <INPUT type="radio" name="forma_pago" value="tarjeta" id="tarj">
+    <LABEL for="tarj">Tarjeta </LABEL>
+    <P>
+    Seleccione su Tarjeta: 
+    <SELECT name="Banco_tarjeta">
+      <OPTION selected>BANCO1<option>BANCO2<option>BANCO3
+    </SELECT>
+    Nº Tarjeta: <INPUT type="text" name="numero_tarjeta" size=20 maxlength=20>
+  <HR>
+
+  <STRONG>FECHA deseada<BR>de entrega (Dia-Mes-Año):</STRONG>
+    <INPUT type="text" NAME="dia_entrega" size=2 maxlength=2>
+    <SELECT name="mes_entrega">
+      <OPTION>Enero <OPTION>Febrero <OPTION>Marzo <OPTION>Abril <OPTION>Mayo
+      <OPTION>Junio <OPTION SELECTED>Julio <OPTION>Agosto <OPTION>Septiembre
+      <OPTION>Octubre <OPTION>Noviembre <OPTION>Diciembre
+    </SELECT>
+    <INPUT type="text" name="anio_entrega" value="1999" size=4 maxlength=4>
+  <HR>
+    <INPUT type="submit" value="Pagar"><INPUT type="reset" value="Borrar formulario">
+</FORM>
+</BODY>
+</HTML>

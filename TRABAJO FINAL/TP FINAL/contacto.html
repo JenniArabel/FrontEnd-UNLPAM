@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos de contacto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="infoContacto">
+        <h1>CONTACTO</h1>   
+        
+        <div> 
+            <img src="img/whatsapp.svg" alt="Logo wsp" class="logowsp">
+            <a href="https://wa.me/?text=Hola, me interesa tu perfil, me gustaría ..." target="_blank" class="wsp-me"> 2614567890 </a>
+            <img src="img/phone.svg" alt="Logo Llamada" class="logocall">
+            <a href="tel:+2614567890" class="callme">2614567890</a>
+            <img src="img/email.svg" alt="Logo email" class="logoemail">
+            <a href="mailto:andrea.drago@gmail.com" class="emailme">andrea.drago@gmail.com</a>
+        </div>
+    </div>
+
+    <div class="form-contact">
+        <form action="/enviar-mensaje" method="POST">
+            <label for="nombre">Nombre:</label><br />
+            <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre"  /><br />
+            <label for="email">Email:</label><br />
+            <input type="email" id="email" name="email" placeholder="Ingrese su email"/><br />
+            <label for="mensaje">Mensaje:</label><br />
+            <textarea id="mensaje" name="mensaje" placeholder="Ingrese mensaje"></textarea><br />
+            <a href="enviar.html" class="enviar-button">Enviar</a>
+          </form>
+    </div>
+
+    <div class="button">
+        <button><a href="index.html" target="_blank" class="volver"> <strong> VOLVER </strong> </a></button>
+   </div>
+</body>
+</html>

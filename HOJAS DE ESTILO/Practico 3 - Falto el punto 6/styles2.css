@@ -1,0 +1,10 @@
+#container{
+    display: flex;
+}
+#item{
+    border: dashed;
+    border-color: black;
+    background-color: rgb(157, 94, 240);
+    font-weight: bold;
+    padding: 100px;
+}

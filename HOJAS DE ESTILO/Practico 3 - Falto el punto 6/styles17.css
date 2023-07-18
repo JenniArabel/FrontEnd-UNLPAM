@@ -1,0 +1,31 @@
+table{
+    border-collapse: collapse;
+    border-color: white;
+    border: 2px;
+    font-family:Arial;
+}
+th{
+    font-size: large;
+    padding-top: 4px;
+    padding-bottom: 2px;
+}
+#days{
+    background-color: gray;
+    color: white;
+}
+.time{
+    background-color: gray;
+    color: white;
+    padding: 4px;
+}
+.room{
+    background-color: rgb(204, 202, 202);
+    padding: 4px;
+}
+.duration{
+    background-color: rgb(255, 196, 0);
+}
+.clock{
+    padding: 4px;
+    width: 12px;
+}

@@ -1,0 +1,47 @@
+
+h1{
+    color: brown;
+    font-family: 'Arial Narrow';
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+p{
+    font-family: 'Arial Narrow';
+    font-size: medium;
+    text-align: center;
+}
+.container{
+    display: flex;
+    margin-left: 25%;
+}
+#gym1{
+    width: 260px;
+}
+#black-box{
+    background-color: black;
+    color: white;
+    width: 280px;
+    height: 390px;
+}
+#gym2{
+    width: 263px;
+}
+#yellow-box{
+    background-color: rgb(245, 198, 13);
+    width: 260px;
+    height: 390px;
+    font-family: 'Arial Narrow';
+}
+#gym3{
+    width: 280px;
+    height: 390px; 
+}
+#red-box{
+    background-color: rgb(208, 30, 30);
+    color: white;
+    width: 263px;
+    height: 390px;
+    font-family: 'Arial Narrow';
+}

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta
+            name="viewport"
+            content="width=<device-width>, initial-scale=1.0"
+        />
+        <title>Document</title>
+    </head>
+    <body>
+        <form action="data.php" method="post">
+            <p>
+                Nombre:
+                <input
+                    type="text"
+                    name="nombre"
+                    size="40"
+                    placeholder="escribi tu nombre"
+                    required
+                    maxlength="10"
+                    minlength="3"
+                    value="leonardo"
+                />*
+            </p>
+            <p>
+                Año de nacimiento:
+                <input type="number" name="nacido" min="1900" />
+            </p>
+            <p>
+                Sexo: <input type="radio" name="hm" value="h" /> Hombre
+                <input type="radio" name="hm" value="m" /> Mujer
+                <input type="radio" name="hm" value="i" /> Indefinido
+            </p>
+            <p>Fecha: <input type="date" name="fecha" /></p>
+            <p>
+                <input type="submit" value="Enviar" />
+                <input type="reset" value="Borrar" />
+            </p>
+            <p>
+                Sexo 1: <input type="checkbox" name="hm1a" value="h" /> Hombre
+                <input type="checkbox" name="hm1b" value="m" /> Mujer
+                <input type="checkbox" name="hm1c" value="i" /> Indefinido
+            </p>
+            <p>
+                <input type="color" name="color" />
+            </p>
+            <p>
+                <input type="range" name="rango" />
+            </p>
+            <p>
+                <select name="menu">
+                    <option value="1">Uno</option>
+                    <option value="2">Dos</option>
+                    <option value="3">Tres</option>
+                </select>
+            </p>
+            <input
+                type="hidden"
+                name="nombre"
+                value="este formulario es de los empleados"
+            />
+        </form>
+    </body>
+</html>
+
+<form method="POST" action="/landings/contactopw" id="contact-form">
+    <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 p-0 main-cols">
+            <div class="group col-lg-6 col-md-6 col-sm-12 col-xs-12 p-left0">
+                <input type="text" name="name" id="name" required="" />
+                <span class="highlight"></span>
+                <span class="bar"></span>
+                <label>Nombre *</label>
+                <div id="name_error" class="error-form"></div>
+            </div>
+            <div class="group col-lg-6 col-md-6 col-sm-12 col-xs-12 p-right0">
+                <input
+                    type="text"
+                    name="last-name"
+                    id="last-name"
+                    required=""
+                />
+                <span class="highlight"></span>
+                <span class="bar"></span>
+                <label>Apellido *</label>
+                <div id="last-name_error" class="error-form"></div>
+            </div>
+            <div class="group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <input
+                    type="email"
+                    name="email-alt"
+                    id="email-alt"
+                    required=""
+                />
+                <span class="highlight"></span>
+                <span class="bar"></span>
+                <label>Email *</label>
+                <div id="email-alt_error" class="error-form"></div>
+            </div>
+            <div class="group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <input
+                    type="tel"
+                    name="phone"
+                    id="phone"
+                    maxlength="10"
+                    required=""
+                />
+                <span class="highlight"></span>
+                <span class="bar"></span>
+                <label>Celular de contacto *</label>
+                <div style="margin-top: 5px; text-align: left">
+                    Ej. 1130450000
+                </div>
+                <div id="phone_error" class="error-form"></div>
+            </div>
+            <div class="group col-lg-4 col-md-4 col-sm-4 col-xs-4 p-left0">
+                <select id="document-type" name="document-type" required="">
+                    <option selected="">DNI</option>
+                    <option>LC</option>
+                    <option>LE</option>
+                </select>
+                <div id="document-type_error" class="error-form"></div>
+            </div>
+            <div class="group col-lg-8 col-md-8 col-sm-8 col-xs-8 p-right0">
+                <input
+                    type="tel"
+                    name="document-number"
+                    id="document-number"
+                    maxlength="8"
+                    required=""
+                />
+                <span class="highlight"></span>
+                <span class="bar"></span>
+                <label id="label-document">Número de Documento *</label>
+                <div id="document-number_error" class="error-form"></div>
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 p-0 main-cols">
+            <div class="group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="col-lg-12 row label-right-block">
+                    ¿En qué horario preferís que te llamemos?
+                </div>
+                <select id="horario" name="horario" required="">
+                    <option selected="" disabled="">Elegir horario...</option>
+                    <option value="9_12">9 a 12hs</option>
+                    <option value="12_15">12 a 15hs</option>
+                    <option value="15_18">15 a 18hs</option>
+                    <option value="18_21">18 a 21hs</option>
+                    <option value="ALL">En cualquier horario</option>
+                </select>
+                <div id="horario_error" class="error-form"></div>
+            </div>
+            <div class="group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <select id="gender" name="gender" required="">
+                    <option selected="" disabled="">Género *</option>
+                    <option value="1">Femenino</option>
+                    <option value="2">Masculino</option>
+                </select>
+                <div id="gender_error" class="error-form"></div>
+            </div>
+            <div class="group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="col-lg-12 row label-right-block offer">
+                    ¿Qué oferta te interesa?
+                </div>
+                <ul class="offers-block">
+                    <li>
+                        <input
+                            type="radio"
+                            class="radio-button"
+                            id="oferta"
+                            name="oferta"
+                            value="Digital Clarín $2250"
+                            checked=""
+                        />
+                        <span class="radio-button-label"
+                            >Digital Clarín Anual $2250</span
+                        >
+                        <span class="check"></span>
+                    </li>
+                    <li>
+                        <input
+                            type="radio"
+                            class="radio-button"
+                            id="oferta"
+                            name="oferta"
+                            value="Digital Clarín $60"
+                            checked=""
+                        />
+                        <span class="radio-button-label"
+                            >Digital Clarín Mensual $60</span
+                        >
+                        <span class="check"></span>
+                    </li>
+                    <li>
+                        <input
+                            type="radio"
+                            class="radio-button"
+                            id="oferta"
+                            name="oferta"
+                            value="Full Digital  $110"
+                            checked=""
+                        />
+                        <span class="radio-button-label"
+                            >Full Digital Mensual $110</span
+                        >
+                        <span class="check"></span>
+                    </li>
+                </ul>
+                <div id="oferta_error" class="error-form"></div>
+            </div>
+        </div>
+    </div>
+    <input type="hidden" name="utm-campaign" value="" id="utm-campaign" />
+    <input type="hidden" name="paseId" value="0" id="paseId" />
+    <input type="hidden" name="form-source" value="uno" />
+    <div class="required-fields">* Campos obligatorios</div>
+    <input
+        class="btn btn-color"
+        type="submit"
+        name="enviar"
+        value="QUIERO SUSCRIBIRME"
+        id="enviar"
+    />
+</form>

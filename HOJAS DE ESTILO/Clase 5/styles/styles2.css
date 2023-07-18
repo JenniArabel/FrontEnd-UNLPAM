@@ -1,0 +1,77 @@
+div p {
+    color: blue;
+}
+/* Acá se indica el color de los parrafos que estén dentro del div. */
+body{
+    background-color: antiquewhite;
+}
+div .parrafos{
+    color: red;
+}
+#cabecera .parrafos{
+    color: rgb(120, 51, 181);
+}
+#p1{
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    color: cadetblue;
+    background-color: rgb(243, 167, 167);
+    border-style: solid;
+    border-color: blue;
+    border-width: 2px;
+    margin: 14px;
+    padding: 20px;
+    border-radius: 14px;
+}
+#p2{
+    background-color: aqua;
+    font: 20px bold italic;
+    /* No funciona el font de esta manera */
+}
+#cabecera {
+    border: solid 1px black;
+    width: 300px;
+    height: 50%;
+    overflow: hidden;
+    /* Overflow: hidden significa que todo lo que está fuera del div se oculte. */
+    margin: 10px;
+    padding: 40px;
+    border-radius: 18px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    /* display: none */
+    display: flex;
+}
+#buttom-submit{
+    background-color: green;
+    color: white;
+    width: 10%;
+    height: 10%;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 0px;
+    border-radius: 10px;
+    /* Averiguar cómo agregarle shadow */
+   
+}
+#buttom-submit:hover{
+    background-color: chocolate;
+}
+#buttom-submit2{
+    background-color: violet;
+    color: white;
+    width: 40%;
+    height: 40%;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 0px;
+    border-radius: 10px;
+    background-image: url('/image/floppy-disk-solid.svg');
+    background-repeat: no-repeat;
+    background-position: 30px;
+}
+/* Se trabaja en medidas de porcentaje cuando se trata de un diseño responsive */

@@ -1,0 +1,5 @@
+#shadow2{
+    color: white;
+    text-shadow: 3px 3px 20px #e91d1d,
+    -2px 1px 30px #ed0d11;
+}

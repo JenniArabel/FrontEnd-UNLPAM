@@ -1,0 +1,31 @@
+<HTML>
+<HEAD> <title>Ejemplo de formulario usando una tabla</title> </HEAD>
+
+<BODY bgcolor="#DDDD00">
+
+<TABLE width="100%">
+<TH colspan="4">
+<FORM method="post" action="http://www.servcompra.com/cgi-bin/compra.pl"> 
+  <STRONG>ENVIAR LA COMPRA A:</STRONG><BR>
+  <TR>
+    <TH align="left">Nombre:
+    <TD colspan="3"><INPUT type="text" name="nombre_entrega" size=49 maxlength=30><BR>
+  <TR>
+    <TH align="left" valign="top">Dirección:
+    <TD colspan="3"><TEXTAREA name="direccion_entrega" rows="3" cols="42"></TEXTAREA><BR>
+  <TR>
+    <TH align="left">Ciudad:
+    <TD><INPUT type="text" name="ciudad_entrega" size=15 maxlength=20>
+    <TH align="left">Provincia:
+    <TD><INPUT type="text" name="provincia_entrega" size=15 maxlength=20><BR>
+  <TR>
+    <TH align="left">C.P.:
+    <TD><INPUT type="text" name="CP_entrega" maxlength=5 size=5>
+    <TH align="left">Teléfono:
+    <TD><INPUT type="text" name="telefono_entrega" size=15 maxlength=17><BR>
+</TABLE>
+    <HR><P align="center">
+    <INPUT type="submit" value="Pagar"><INPUT type="reset" value="Borrar formulario">
+</FORM>
+</BODY>
+</HTML>

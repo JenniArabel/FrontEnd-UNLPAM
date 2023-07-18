@@ -1,0 +1,164 @@
+.imgprofile{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.name{
+    background-image: url(img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    border-radius: 4px;
+}
+h1{
+    align-self:center ;
+    margin: auto;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #C8E0F4;
+}
+.profile , .formacion , .competencias , .otros {
+    background-color: #fefae0;
+    display: flexbox;  
+    padding-left: 10px;
+    border-radius: 10px;
+}
+.formacion{
+    text-align: center;
+}
+.comp-otros{
+    display: flex;
+    justify-content: space-between;
+}
+.competencias , .otros {
+    width: 800px;
+    margin-bottom: 20px;
+}
+.otros li {
+    list-style-type: square;
+}
+h2{
+    background-color: #faedcd;
+    border-radius: 10px;
+    text-align: center;
+}
+h3{
+    background-color: #f4a261;
+    color: #2b2d42;
+    border-radius: 4px;
+}
+.exp-contact{
+    background-color: #fefae0;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.exp{
+    padding-left: 10px;
+}
+.contact{
+    padding-right: 10px;
+}
+a:link{
+    color: black;
+}
+a:visited{
+    color: #005f73;
+}
+a:hover{
+    color: #118ab2;
+}
+.tab{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+table{
+    border-collapse: collapse;
+    border-color: #118ab2;
+    background-color: antiquewhite;
+    line-height: 50px;
+} 
+th{
+    background-color: #118ab295;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    margin: 20px;
+    width: 100px;
+    height: 26px;
+}
+.volver{
+    text-decoration: none;
+    color: #2b2d42;
+}
+.infoContacto h1 {
+    margin-left: 40px;
+}
+.logowsp , .logocall , .logoemail{
+    width: 40px;
+    margin: 8px;
+    margin-left: 30px;
+    display: flex;
+}
+.wsp-me , .callme , .emailme{
+    text-decoration: none;
+    margin-left: 36px;
+}
+
+
+
+.form-contact{
+    margin-top: 30px;
+    
+}
+
+form {
+    width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #edede9 ;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  .enviar-button{
+    background-color: #0077b6;
+    padding: 12px 380px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+.enviar-button:visited{
+    color: white;
+}
+.enviar-button {
+    text-decoration: none;
+}
+
+

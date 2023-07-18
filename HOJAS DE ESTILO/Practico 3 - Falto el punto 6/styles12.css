@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+}
+#container{
+    display: flex;
+    justify-content: center;
+}
+#container-div{
+    display: flex;
+    justify-content: center;
+}
+ul{
+    margin-right: 16px;
+}

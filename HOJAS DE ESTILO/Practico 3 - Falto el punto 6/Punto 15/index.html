@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Punto 15 Primera Página</title>
+    <link rel="stylesheet" href="index-styles.css">
+</head>
+<body>
+    <div id="principal">
+        <h1>Heladería</h1>
+        <h2>Añade un producto:</h2>
+        <form action="">
+            Categoría:
+            <br>
+            <select name="categoria" id="categoria">
+                <option value="text">Seleccione Categoría...</option>
+            </select>
+        </form>
+        <h3>Sabores que ofrecemos</h3>
+        <form action="">
+            Sabor:
+            <br>
+            <input type="text" id="sabor">
+            <br>
+            Cantidad
+            <br>
+            <input type="text" id="cantidad">
+        </form>
+        <div>
+            <input type="radio">
+            Pequeño (2)
+            <input type="radio">
+            Mediano (5)
+            <input type="radio">
+            Grande (7)
+        </div>
+
+        <h3 id="complementos">Complementos:</h3>
+        <div>
+            <input type="checkbox"> Maní
+            <br>
+            <input type="checkbox"> Chispas de Chocolate
+            <br>
+            <input type="checkbox"> Chispas de Colores
+            <br>
+            <input type="checkbox"> Leche Condensada
+        </div>
+
+
+        
+        <div>
+            <a href="carrito.html" onclick="alert('Redireccionando a otra página')" target="_blank"><input type="submit" id="enviar"></a>
+        </div>
+        <br>
+        <input type="reset" value="Borrar" id="borrar">
+
+
+    </div>
+</body>
+</html>

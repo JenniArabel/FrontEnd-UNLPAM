@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <video width="320" height="240" controls autoplay id="video1" muted>
+        <source src="descarga.mp4" type="video/mp4">
+        <source src="descarga.ogg"type="video/ogg">
+        Su browser no soporta el tag video
+    </video>
+    <figcaption>Video del primo que no es tímido</figcaption>
+    <script>
+        document.getElementById("video1").currentTime=10;
+    </script>
+    <!-- Dentro del script, habilitar comentario y colocar id a video -->
+
+    <div>
+        <button onclick="">Play/Pause</button>
+        <button onclick="">Make Small</button>
+    </div>
+</body>
+</html>

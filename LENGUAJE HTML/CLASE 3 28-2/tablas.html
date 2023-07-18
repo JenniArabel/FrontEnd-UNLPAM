@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="color: brown;">Manejo de tablas</h1>
+    <div>
+        <h3> TABLA 1 </h3>
+        <table border="1" width="30%">
+            <caption>TITULO TABLA</caption>
+            <tr> 
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>DNI</th>
+            </tr>
+            <tr>
+                <td>Jennifer</td>
+                <td>Arabel</td>
+                <td>DNI</td>
+            </tr>
+            <tr>
+                <td>Jennifer</td>
+                <td colspan="2">Arabel</td>
+                <td>DNI</td>
+            </tr>
+            <tr>
+                <td>Jennifer</td>
+                <td>Arabel</td>
+                <td>DNI</td>
+            </tr>
+        </table>
+
+    <div>
+        <h3> TABLA 2</h3>
+        <table style="border:1px solid black;" >
+            <tr>
+                <td rowspan="2" style="border:1px solid black;">River</td>
+                <td style="border:1px solid red;">Primera</td>
+            </tr>
+            <tr>
+                <td>Cuarta</td>
+            </tr>
+            <tr>
+                <td>Racing</td>
+                <td>Primera</td>
+            </tr>
+            <tr>
+                <td rowspan="3">Boca</td>
+                <td>Primera</td>
+            </tr>
+            <tr>
+                <td>Cuarta</td>
+            </tr>
+            <tr>
+                <td>Quinta</td>
+            </tr>
+        </table>
+    </div>
+    <div id="tabla3">
+        <h3> TABLA 3</h3>
+        <table border="1">
+            <tr style="background-color: lightskyblue;">
+                <th> Equipo</th>
+                <th> Categoria</th>
+            </tr>
+            <tr>
+                <td rowspan="2">River</td>
+                <td> <span style="background-color: aquamarine;"> Primera </span> </td>
+            </tr>
+            <tr>
+                <td>Cuarta</td>
+            </tr>
+            <tr>
+                <td>Racing</td>
+                <td>Primera</td>
+            </tr>
+            <tr>
+                <td rowspan="3">Boca</td>
+                <td>Primera</td>
+            </tr>
+            <tr>
+                <td>Cuarta</td>
+            </tr>
+            <tr>
+                <td>Quinta</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <style>
+            table {
+                border: 1px solid black;
+                background-color: rgb(251, 229, 233);
+            }
+            #tabla3 table {
+                border: 3px solid purple;
+                background-color: rgb(251, 229, 233);
+                width: 100%;
+            }
+        </style>
+    </div>
+</body>
+</html>
+<!-- 
+TH: pone en enfasis los titulos de la tabla, las pone en negrita.
+
+-->

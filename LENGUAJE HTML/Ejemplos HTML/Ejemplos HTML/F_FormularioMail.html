@@ -1,0 +1,32 @@
+<HTML>
+<HEAD>
+  <TITLE>Ejemplo de formulario para enviar mail</TITLE>
+<SCRIPT>
+function mostrar_libreta ()
+{ 
+  // codigo de la funcion que muestra la libreta de direcciones
+}
+</SCRIPT>
+</HEAD>
+<BODY bgcolor="#DDDD00">
+  <H4 align="center">NUEVO MENSAJE</H4>
+    <FORM Action="http://nombre_cgi" Method="Post">
+      <HR>
+      <B>Enviar a: </B><INPUT Type="text" Name="Dirigido_a" Size="17">  
+      <B>Buscar en: </B><BUTTON Type="button" onClick="mostrar_libreta">
+                         Libreta de <BR>direcciones</BUTTON>
+      <P>
+      <B>Asunto:</B> <INPUT Type="text" Name="Asunto" Size="48.8" Maxlength="100">
+      <HR>
+      <B>Contenido:</B>
+      <BR><TEXTAREA Name="Contenido" Rows="7" Cols="50"></TEXTAREA>
+      <HR>
+      <INPUT Type="Submit" Value="Enviar">
+      <INPUT Type="Reset" Value="Borrar">
+    </FORM>
+      <P>
+      <A HREF="GestionCorreo.html">
+         <IMG SRC="dim_PreviousArrow.gif"  ALT="Home"><B> Ir al gestor de correo</B></A>
+      
+</BODY>
+</HTML>

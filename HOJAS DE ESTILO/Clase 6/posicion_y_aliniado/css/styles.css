@@ -1,0 +1,59 @@
+.container{
+    width: 80px;
+    height: 80px;
+    border: solid 1px black;
+    padding: 20px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.75);
+    position: relative;
+}
+.divContent2{
+    overflow: hidden;
+}
+.divf2{
+    float: flex;
+    /* No lo toma como válido. Si lo sacamos no genera ningun cambio. */
+}
+.div5 , .div6{
+    float: left;
+}
+.div7,.div8{
+    float: right;
+}
+
+
+/* PARA CENTRAR INFORMACIÓN: */
+.divc{
+    width: 80px;
+    height: 80px;
+    border: solid 1px black;
+    margin: 10px;
+    background-color: aqua;
+}
+.divc1{
+    text-align: center;
+    line-height: 80px;
+}
+.divc2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.divc3{
+    display: flex;
+}
+.divc3 span{
+    margin: auto;
+}
+
+
+body{
+    background-image: linear-gradient(to top, #18283f, #3e3265, #7e2c74, #bf0764, #eb1238);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}

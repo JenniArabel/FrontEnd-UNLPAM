@@ -1,0 +1,33 @@
+<HTML>
+<HEAD>
+  <TITLE>Ejemplo de formulario con grupos de elementos</TITLE>
+</HEAD>
+<BODY bgcolor="#DDDD00">
+  <H4>LA TIENDA EN INTERNET</H4>
+    <FORM Action="http://www.serv_tienda/cgi-bin/super.pl" Method="Post">
+      <FIELDSET>
+         <LEGEND align="left"><B>Supermercado</B></LEGEND>
+         <INPUT type="radio" name="super" value="bebida" checked id="bebida">
+         <LABEL for="bebida">Bebida </LABEL>
+         <INPUT type="radio" name="super" value="comida" id="comida">
+         <LABEL for="comida">Comida </LABEL>
+         <INPUT type="radio" name="super" value="ropa" id="ropa">
+         <LABEL for="ropa">Ropa </LABEL>
+         <INPUT type="submit" value="Mostrar productos"><P>
+      </FIELDSET>
+    <FORM>
+
+    <FORM Action="http://www.serv_tienda/cgi-bin/tiendas.pl" Method="Post">
+      <FIELDSET>
+         <LEGEND align="left"><B>Tiendas</B></LEGEND>
+         <INPUT type="radio" name="tiendas" value="deportes" checked id="deportes">
+         <LABEL for="deportes">Deportes </LABEL>
+         <INPUT type="radio" name="tiendas" value="muebles" id="muebles">
+         <LABEL for="muebles">Muebles </LABEL>
+         <INPUT type="radio" name="tiendas" value="jardin" id="jardin">
+         <LABEL for="jardin">Jardinería </LABEL>
+         <INPUT type="submit" value="Mostrar productos"><P>
+      </FIELDSET>
+    <FORM>
+</BODY>
+</HTML>

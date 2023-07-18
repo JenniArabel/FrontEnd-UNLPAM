@@ -1,0 +1,24 @@
+h1{
+    color: red;
+}
+h1 , p {
+    color: blueviolet;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif 
+    /* !important */
+}
+#parrafo1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* Los identificadores o id, son únicos, no se pueden repetir. */
+.todoparrafo{
+    background-color: aquamarine;
+    width: 80%;
+    border: solid 1px black ;
+    text-align: right;
+}
+/* Las clases se pueden repetir, es decir que 2 o más elementos pueden  tener la misma clase. */
+#h2, #h3, #h4 {
+    border: solid 4px black;
+}

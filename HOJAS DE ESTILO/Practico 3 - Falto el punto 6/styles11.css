@@ -1,0 +1,119 @@
+body{
+    background-image: url(img/Fondo\ 11.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+header {
+    background-color: rgb(194, 194, 194);
+    border: solid 1px;
+    border-color: black;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    margin-bottom: 16px;
+}
+#circulo-rojo, #circulo-amarillo, #circulo-verde, #text , #img {
+    display: inline-block; 
+}
+div img{
+    width: 16px;
+    padding-top: 2px;
+}
+header #circulo-rojo{
+    background-color: red;
+    width: 10px;
+    height: 10px;
+    border: solid 1px;
+    border-radius: 50%;
+}
+header #circulo-amarillo{
+    background-color: yellow;
+    width: 10px;
+    height: 10px;
+    border: solid 1px;
+    border-radius: 50%;
+}
+header #circulo-verde{
+    background-color: green;
+    width: 10px;
+    height: 10px;
+    border: solid 1px;
+    border-radius: 50%;
+}
+#container2{
+    display: flex;
+    justify-content: center;
+}
+#box1{
+    margin: 16px;
+    box-shadow: -2px -2px 0 8px white;
+    background-image: url(img/Sabina\ y\ serrat.jpg);
+    background-size: 360px;
+    background-repeat: no-repeat;
+}
+#box1 h2{
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+#box1 p{
+    color: white;
+    text-align: center;
+    font-style: italic;
+    background-color: rgba(255, 166, 0, 0.438);
+}
+#box2{
+    margin: 16px;
+    box-shadow: -2px -2px 0 8px white;
+    background-image: url(img/Rafael\ berrio.jpg);
+    background-size: 360px;
+}
+#box2 h2{
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+#box2 p{
+    color: white;
+    text-align: center;
+    font-style: italic;
+    background-color: rgba(255, 166, 0, 0.438);
+}
+#container3{
+    display: flex;
+    justify-content: center;
+}
+#box3{
+    margin: 16px;
+    box-shadow: -2px -2px 0 8px white;
+    background-image: url(img/mcenroe.jpg);
+    background-size: 360px;
+}
+#box3 h2{
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+#box3 p{
+    color: white;
+    text-align: center;
+    font-style: italic;
+    background-color: rgba(255, 166, 0, 0.438);
+}
+#box4{
+    margin: 16px;
+    box-shadow: -2px -2px 0 8px white;
+    background-image: url(img/maximo\ park.jpg);
+    background-size: 360px;
+}
+#box4 h2{
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+#box4 p{
+    color: white;
+    text-align: center;
+    font-style: italic;
+    background-color: rgba(255, 166, 0, 0.438);
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!-- saved from url=(0092)https://www.mclibre.org/consultar/htmlcss/html/ejemplos/formularios/formularios-range-4.html -->
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <title>range. Formularios. HTML. Páginas web HTML y hojas de estilo CSS. Bartolomé Sintes Marco. www.mclibre.org</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <form action="https://www.mclibre.org/consultar/htmlcss/html/ejemplos/formularios/formularios-range-4.php" method="get">
+    <p>
+      Indique su nivel (de 0 a 6):
+      <input type="range" name="rango" min="0" max="6" list="lista-rango">
+      <datalist id="lista-rango">
+        <option value="0"></option>
+        <option value="2"></option>
+        <option value="4"></option>
+        <option value="6"></option>
+        <!--
+          2019-10-22
+          He tenido que añadir los cierres de option porque HTMLHint en VSCode dice que es necesario
+          pero mirando la recomendación yo diría que no hace falta. El validador dice que es igual de
+          válido con cierres que sin ellos.
+          He abierto una issue en HTMLHint https://github.com/htmlhint/HTMLHint/issues/363
+        -->
+      </datalist>
+    </p>
+
+    <p>
+      <input type="submit" value="Enviar">
+    </p>
+  </form>
+
+
+</body></html>
